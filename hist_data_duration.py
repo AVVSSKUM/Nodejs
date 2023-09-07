@@ -6,6 +6,11 @@ from key import *
 import json
 import pandas as pd
 import datetime as dt
+pd.set_option('display.max_column', None)
+pd.set_option('display.max_rows', None)
+pd.set_option('display.max_seq_items', None)
+pd.set_option('display.max_colwidth', 500)
+pd.set_option('expand_frame_repr', True)
 
 obj = SmartConnect(api_key=apikey)
 data = obj.generateSession(userid,passwd,TOTP(otp).now())
