@@ -1,5 +1,5 @@
 apikey = 'iMSQL7Tr'
-userid = 'A114028'
-passwd = '9680'
+userid =''
+passwd = ''
 otp = 'CBJQMNQKMDJUCKBZ5SEKA63CWY'
 secret = '7d846851-9192-4438-ba98-405b4bf55a7c'
